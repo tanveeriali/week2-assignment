@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family:  medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  overflow-x: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h2 { margin-left:1%; width:98%; padding-bottom:20px;
+border-bottom: 3px solid #dadada}
+
+a {
+  color:#2e2925;
+}
+.App {width:96%; margin: 0 auto; }
+#yourArticles,#missedArticle {
+  text-align: left !important;
+  clear: both;
+  width:100%;
+
+  display:block;
+}
+#missedArticle { margin-top:20px;}
+.yourArticle {
+  width: 46%; 
+  margin: calc(2% - 4px);
+  float:left;
+  position: relative;
+  border: 2px solid #dadada
+}
+
+.yourArticle .words {
+  width:47%;
+  height:240px;
+  padding:5px 1.5%;
+  float: left;
+}
+.words h3 {font-size: 15px;text-align:left}
+.yourArticle .imgHold {
+  width:50%;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  
+  float:left;
+}
+
+.desc { 
+  color:#aaaaaa;
+  font-size:13px;
+}
+.authorImg {
+  width:40px;
+  margin:1%;
+  border-radius: 50px;
+  float:left;
+}
+.meta {
+  height:70px;
+  position: absolute;
+  bottom:0;
+  font-size:12px;
+  width:100%;
+}
+.authorImg img{
+  width:100%;
+  border-radius: 50px;
+  vertical-align: middle;
+}
+.metaWords {
+  width: calc(45% - 50px);
+  padding-left:5px;
+  padding-top:5px;
+  float:left;
+}
+.missedArticle .metaWords {
+  width: calc(98% - 50px);
+}
+.fd {
+  position: absolute;
+  bottom:10px;
+  right:10px;
+}
+.fd path {
+  stroke: #adadad
+}
+.fd:hover path {
+  fill: #adadad
+}
+.missedArticle {
+  width: 28%; 
+  margin: calc(10% / 3 - 16px);
+  float:left;
+  position: relative;
+  border: 2px solid #dadada
+}
+.missedArticle .imgHold {
+  width:100%;
+  height: 75px;
+  background-position: center;
+  background-size:cover;
+  clear:both;
+}
+.missedArticle .words {
+  width:97%;
+  height:200px;
+  padding:5px 1.5%;
+  float: left;
+}
